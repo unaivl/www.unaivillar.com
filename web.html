@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfoli d'Unai Villar</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #007bff;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: 2rem auto;
+        }
+        .profile {
+            text-align: center;
+        }
+        .profile img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+        }
+        .profile h1 {
+            margin-top: 0.5rem;
+        }
+        .portfolio {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+        .portfolio-item {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 1rem;
+            flex: 1 1 calc(33% - 2rem);
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            transition: transform 0.2s;
+        }
+        .portfolio-item img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+        .portfolio-item:hover {
+            transform: scale(1.05);
+        }
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background-color: #007bff;
+            color: white;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Portfoli d'Unai Villar</h1>
+    </header>
+    <div class="container">
+        <div class="profile">
+            <img src="https://via.placeholder.com/150" alt="Foto de perfil d'Unai Villar">
+            <h1>Unai Villar</h1>
+            <p>Desenvolupador web especialitzat en crear experiències digitals modernes i eficients.</p>
+        </div>
+        <h2>Projectes</h2>
+        <div class="portfolio">
+            <div class="portfolio-item">
+                <img src="https://via.placeholder.com/400x300" alt="Projecte 1">
+                <h3>Projecte 1</h3>
+                <p>Descripció breu del projecte 1. Aquest projecte destaca per...</p>
+            </div>
+            <div class="portfolio-item">
+                <img src="https://via.placeholder.com/400x300" alt="Projecte 2">
+                <h3>Projecte 2</h3>
+                <p>Descripció breu del projecte 2. Aquest projecte destaca per...</p>
+            </div>
+            <div class="portfolio-item">
+                <img src="https://via.placeholder.com/400x300" alt="Projecte 3">
+                <h3>Projecte 3</h3>
+                <p>Descripció breu del projecte 3. Aquest projecte destaca per...</p>
+            </div>
+            <!-- Afegir més projectes aquí -->
+        </div>
+    </div>
+    <footer>
+        &copy; 2024 Unai Villar. Tots els drets reservats.
+    </footer>
+</body>
+</html>
